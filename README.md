@@ -9,19 +9,15 @@ NLP powered graph exploration of FDA's Medical Device Report database
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ClinTrials.gov database:
-<center><img src='unrankedNCTs.png'></img></center>
+<center><img src='2x insulin pumps.png'></img></center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first ten entries of the Unified Medical Language System (UMLS):
-<center><img src='ULMS.png'></img></center>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we split the search input into n-grams:
-<center><img src='ngrams.png'></img></center>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then match the n-gram terms to SNOMED-CT Concept Unique Indetifiers (CUIs):
-<center><img src='ngramCUIs.png'></img></center>
+<center><img src='hyperglycemia related devices.png'></img></center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A set of clinical embeddings are used to calculate the distance between search input CUIs and the clinical trial CUIs:
-<center><img src='cosinesim.png'></img></center>
+<center><img src='MDR EDA.png'></img></center>
+
+
 
 All trials are ranked based on a weighted similarity score and presented to the user:
-<center><img src='rankedNCTs.png'></img></center>
+<center><img src='MDR graph exp results.png'></img></center>
