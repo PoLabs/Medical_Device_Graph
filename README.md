@@ -22,5 +22,5 @@ NLP powered graph exploration of FDA's Medical Device Report database
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results from experiments conducted to quantify app performance:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results from experiments conducted to quantify app performance. Known risk experiment: what percent of a device's most reported concepts are directly related to the known risks of that device? Related device experiment: what percent of app reported related devices are truly related to the input device?
 <center><img src='MDR graph exp results.png'></img></center>
